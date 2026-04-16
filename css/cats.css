@@ -142,7 +142,7 @@ nav#cat-nav .nav-inner {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 56px;
+    height: 70px;
     flex-wrap: wrap;
     gap: 0.5rem;
 }
