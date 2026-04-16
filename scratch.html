@@ -20,7 +20,7 @@
                 <li><a href="#types">Cat Types</a></li>
                 <li><a href="#breeds">Popular Breeds</a></li>
                 <li><a href="#video">Video</a></li>
-                <li><a href="#data">Data</a></li>
+                <li><a href="#data">Table</a></li>
                 <!-- Navigation BACK to professional pages -->
                 <li><a href="index.html" class="nav-home-link">← Main Blog</a></li>
             </ul>
@@ -34,25 +34,10 @@
         </p>
     </div>
 
-    <!-- ═══════════════════════════════════════════
-         MAIN CONTENT DIV (div 3)
-         Central article body
-    ═══════════════════════════════════════════ -->
     <div id="main-content">
 
-        <!-- ──────────────────────────────────────
-             SECTION 1: INTRODUCTION
-             On-page anchor target: #intro
-        ────────────────────────────────────── -->
         <section id="intro">
             <h2 class="section-heading">Introduction to Cats</h2>
-
-            <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/600px-Image_created_with_a_mobile_phone.png"
-                alt="A classic tabby cat sitting outdoors"
-                class="image-float-right breed-img"
-                style="max-width:320px;"
-            />
 
             <p class="lead-text">
                 Domestic cats (<em>Felis catus</em>) are among the most beloved and widely kept companion
@@ -72,37 +57,16 @@
                 complex and independently-minded of all domestic animals.
             </p>
 
-            <blockquote>
-                "Time spent with cats is never wasted." — Sigmund Freud
-            </blockquote>
-
-            <div class="clearfix"></div>
-
-            <div class="info-box">
-                <h4>Fast Facts</h4>
-                <p>
-                    There are over <strong>70 recognized cat breeds</strong> worldwide (TICA recognizes 73).
-                    The domestic cat can run up to <strong>30 mph</strong>, has approximately <strong>200 million
-                    odor receptors</strong> in its nose (humans have 5 million), and spends up to
-                    <strong>16 hours a day sleeping</strong>.
-                </p>
-            </div>
         </section>
 
-        <!-- ──────────────────────────────────────
-             SECTION 2: TYPES OF CATS
-             On-page anchor target: #types
-             Required: ordered list with embedded unordered list
-        ────────────────────────────────────── -->
         <section id="types">
-            <h2 class="section-heading">How We Classify Cats</h2>
+            <h2 class="section-heading">How Are Cats Classified?</h2>
             <p>
                 Cat breeds can be organized in several overlapping ways. Below are the major classification
                 frameworks used by registries like <em>The International Cat Association (TICA)</em> and
                 the <em>Cat Fanciers' Association (CFA)</em>, each with notable breed examples.
             </p>
 
-            <!-- ORDERED LIST WITH EMBEDDED UNORDERED LISTS -->
             <ol class="cat-taxonomy">
 
                 <li>
@@ -163,8 +127,7 @@
         </section>
 
         <!-- ──────────────────────────────────────
-             SECTION 3: POPULAR BREEDS
-             On-page anchor target: #breeds
+             POPULAR BREEDS
              Breed card grid with external images
         ────────────────────────────────────── -->
         <section id="breeds">
@@ -241,11 +204,6 @@
             </div><!-- /breed-grid -->
         </section>
 
-        <!-- ──────────────────────────────────────
-             SECTION 5: VIDEO
-             On-page anchor target: #video
-             Embedded YouTube video
-        ────────────────────────────────────── -->
         <section id="video">
             <h2 class="section-heading">Why Do Cats Act So Weird?</h2>
             <p>
@@ -254,7 +212,6 @@
                 on their own terms. A must-watch for any cat enthusiast.
             </p>
 
-            <!-- EMBEDDED YOUTUBE VIDEO (responsive wrapper) -->
             <div class="video-wrapper">
                 <iframe
                     src="https://www.youtube.com/embed/sI8NsYIyQ2A"
@@ -264,9 +221,6 @@
                 </iframe>
             </div>
 
-            <p class="image-caption">
-                "Why do cats act so weird?" — TED-Ed, Tony Buffington. Uploaded to YouTube; embedded here for educational purposes.
-            </p>
         </section>
 
         <!-- ──────────────────────────────────────
@@ -334,92 +288,19 @@
                     })();
                 </script>
 
-            </div><!-- /tableau-section -->
-        </section>
-
-        <!-- ──────────────────────────────────────
-             RÉSUMÉ SECTION (also appears here per
-             "résumé content can appear in both pages")
-        ────────────────────────────────────── -->
-        <section id="resume-section">
-            <h2 class="section-heading">About the Author</h2>
-            <p class="lead-text">
-                The following is an abbreviated résumé for the author of this site.
-                Full details are available on the <a href="index.html#resume">main blog page</a>.
-            </p>
-
-            <div class="info-box">
-                <h4>Current Role</h4>
-                <p>
-                    <strong>Senior Software Engineer</strong> at Meridian Analytics — full-stack development,
-                    data pipeline architecture, and data visualization with 8+ years of experience.
-                </p>
             </div>
-
-            <table class="compare-table">
-                <thead>
-                    <tr>
-                        <th>Skill Area</th>
-                        <th>Technologies</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><strong>Frontend</strong></td>
-                        <td>React, Next.js, TypeScript, D3.js, CSS3, HTML5</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Backend</strong></td>
-                        <td>Node.js, Python, FastAPI, PostgreSQL, Redis</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Data &amp; DevOps</strong></td>
-                        <td>Tableau, Pandas, Docker, AWS, CI/CD, Kafka</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Education</strong></td>
-                        <td>B.S. Computer Science, Minor in Statistics</td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <p style="text-align:center; margin-top:1.5rem;">
-                <a href="index.html#resume" style="
-                    display:inline-block;
-                    background: #b5451b;
-                    color:#fff;
-                    padding: 10px 28px;
-                    border-radius: 4px;
-                    text-decoration: none;
-                    font-family: var(--font-body);
-                    font-weight: 700;
-                    font-size: 0.9rem;
-                    letter-spacing: 0.5px;
-                    transition: background 0.2s;
-                ">
-                    View Full Résumé →
-                </a>
-            </p>
         </section>
 
-    </div><!-- /main-content -->
+    </div>
 
-    <!-- FOOTER DIV -->
+
     <div id="footer-section">
-        <p>
-            🐱 <strong>The Cat Encyclopedia</strong> &nbsp;·&nbsp;
-            Part of <a href="index.html">Digital Frontiers</a> &nbsp;·&nbsp;
-            Images via <a href="https://commons.wikimedia.org" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>
-            (CC licenses) &nbsp;·&nbsp;
-            Video via <a href="https://www.youtube.com/watch?v=sI8NsYIyQ2A" target="_blank" rel="noopener noreferrer">TED-Ed on YouTube</a>
-        </p>
         <p style="margin-top:0.5rem; font-size:0.78rem; opacity:0.7;">
             <a href="#top">↑ Back to top</a> &nbsp;·&nbsp;
-            Built from scratch — no frameworks used on this page.
         </p>
     </div>
 
-</div><!-- /page-wrapper -->
+</div>
 
 </body>
 </html>
