@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The Cat Encyclopedia — a comprehensive guide to cat breeds, types, and feline science." />
+    <title>🐱 The Cat Encyclopedia</title>
+    <!-- Link to custom stylesheet (created from scratch) -->
+    <link rel="stylesheet" href="cats.css" />
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════
+     PAGE WRAPPER DIV (div 1)
+     Controls full-page layout flow
+═══════════════════════════════════════════ -->
+<div id="page-wrapper">
+
+    <!-- NAVIGATION BAR -->
+    <nav id="cat-nav">
+        <div class="nav-inner">
+            <a href="#top" class="nav-brand">🐱 The Cat Encyclopedia</a>
+            <ul>
+                <li><a href="#intro">Introduction</a></li>
+                <li><a href="#types">Cat Types</a></li>
+                <li><a href="#breeds">Popular Breeds</a></li>
+                <li><a href="#differences">Differences</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#data">Data</a></li>
+                <!-- Navigation BACK to professional pages -->
+                <li><a href="index.html" class="nav-home-link">← Main Blog</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ═══════════════════════════════════════════
+         HERO SECTION DIV (div 2)
+         Custom background color, on-page anchor
+    ═══════════════════════════════════════════ -->
+    <div id="hero-section" id="top">
+        <h1>The Cat Encyclopedia</h1>
+        <p class="hero-subtitle">
+            A comprehensive guide to the world's most fascinating domestic animal —
+            their breeds, biology, history, and what makes each one unique.
+        </p>
+        <!-- ON-PAGE ANCHOR NAVIGATION -->
+        <div class="hero-anchor-nav">
+            <a href="#intro">Introduction</a>
+            <a href="#types">Cat Types</a>
+            <a href="#breeds">Popular Breeds</a>
+            <a href="#differences">What Differentiates Them</a>
+            <a href="#video">Watch a Video</a>
+            <a href="#data">Cat Data</a>
+        </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════
+         MAIN CONTENT DIV (div 3)
+         Central article body
+    ═══════════════════════════════════════════ -->
+    <div id="main-content">
+
+        <!-- ──────────────────────────────────────
+             SECTION 1: INTRODUCTION
+             On-page anchor target: #intro
+        ────────────────────────────────────── -->
+        <section id="intro">
+            <h2 class="section-heading">Introduction to Cats</h2>
+
+            <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/600px-Image_created_with_a_mobile_phone.png"
+                alt="A classic tabby cat sitting outdoors"
+                class="image-float-right breed-img"
+                style="max-width:320px;"
+            />
+
+            <p class="lead-text">
+                Domestic cats (<em>Felis catus</em>) are among the most beloved and widely kept companion
+                animals in the world — with an estimated 600 million cats living alongside humans globally.
+            </p>
+
+            <p>
+                Cats were first domesticated roughly <strong>10,000 years ago</strong> in the Near East,
+                where wildcats (<em>Felis silvestris lybica</em>) were drawn to early agricultural settlements
+                by rodent populations. Over millennia, selective breeding and natural adaptation produced
+                the extraordinary diversity of breeds, coat types, and temperaments we know today.
+            </p>
+
+            <p>
+                Unlike dogs, whose domestication dramatically reshaped their anatomy and behavior, cats
+                retain many traits of their wild ancestors — making them one of the most behaviorally
+                complex and independently-minded of all domestic animals.
+            </p>
+
+            <blockquote>
+                "Time spent with cats is never wasted." — Sigmund Freud
+            </blockquote>
+
+            <div class="clearfix"></div>
+
+            <div class="info-box">
+                <h4>Fast Facts</h4>
+                <p>
+                    There are over <strong>70 recognized cat breeds</strong> worldwide (TICA recognizes 73).
+                    The domestic cat can run up to <strong>30 mph</strong>, has approximately <strong>200 million
+                    odor receptors</strong> in its nose (humans have 5 million), and spends up to
+                    <strong>16 hours a day sleeping</strong>.
+                </p>
+            </div>
+        </section>
+
+        <!-- ──────────────────────────────────────
+             SECTION 2: TYPES OF CATS
+             On-page anchor target: #types
+             Required: ordered list with embedded unordered list
+        ────────────────────────────────────── -->
+        <section id="types">
+            <h2 class="section-heading">How We Classify Cats</h2>
+            <p>
+                Cat breeds can be organized in several overlapping ways. Below are the major classification
+                frameworks used by registries like <em>The International Cat Association (TICA)</em> and
+                the <em>Cat Fanciers' Association (CFA)</em>, each with notable breed examples.
+            </p>
+
+            <!-- ORDERED LIST WITH EMBEDDED UNORDERED LISTS -->
+            <ol class="cat-taxonomy">
+
+                <li>
+                    <span class="li-label">Classified by Coat Type</span>
+                    <ul>
+                        <li><strong>Short-haired</strong> — the most common; low maintenance grooming <em>(e.g., Siamese, Abyssinian, British Shorthair)</em></li>
+                        <li><strong>Long-haired</strong> — flowing coats requiring daily brushing <em>(e.g., Persian, Maine Coon, Norwegian Forest Cat)</em></li>
+                        <li><strong>Medium-haired</strong> — a balance between the two <em>(e.g., Ragdoll, Siberian, Turkish Angora)</em></li>
+                        <li><strong>Hairless</strong> — little to no fur; require skin care and warmth <em>(e.g., Sphynx, Peterbald, Donskoy)</em></li>
+                        <li><strong>Curly/Rex-coated</strong> — genetically wavy or kinked fur <em>(e.g., Cornish Rex, Devon Rex, Selkirk Rex)</em></li>
+                        <li><strong>Wire-haired</strong> — stiff, crimped coat texture <em>(e.g., American Wirehair)</em></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <span class="li-label">Classified by Body Type</span>
+                    <ul>
+                        <li><strong>Cobby</strong> — compact, round, heavily boned <em>(e.g., Persian, Exotic Shorthair)</em></li>
+                        <li><strong>Semi-cobby</strong> — moderately compact <em>(e.g., British Shorthair, American Shorthair)</em></li>
+                        <li><strong>Semi-foreign</strong> — moderate, slightly elongated <em>(e.g., Abyssinian, Russian Blue)</em></li>
+                        <li><strong>Foreign/Oriental</strong> — slender, angular, long-limbed <em>(e.g., Siamese, Cornish Rex, Oriental)</em></li>
+                        <li><strong>Long &amp; Substantial</strong> — large, muscular, long body <em>(e.g., Maine Coon, Norwegian Forest Cat)</em></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <span class="li-label">Classified by Geographic / Genetic Origin</span>
+                    <ul>
+                        <li><strong>Western breeds</strong> — developed primarily in Europe and North America <em>(e.g., British Shorthair, Maine Coon, Ragdoll)</em></li>
+                        <li><strong>Eastern &amp; South Asian breeds</strong> — originating in Asia <em>(e.g., Siamese, Burmese, Japanese Bobtail, Bengal)</em></li>
+                        <li><strong>Middle Eastern &amp; African breeds</strong> — closest to wildcat lineage <em>(e.g., Egyptian Mau, Turkish Van)</em></li>
+                        <li><strong>Natural/Landrace breeds</strong> — evolved with minimal human selection <em>(e.g., Norwegian Forest Cat, Siberian)</em></li>
+                        <li><strong>Hybrid breeds</strong> — crosses with wild felid relatives <em>(e.g., Bengal from Asian Leopard Cat, Savannah from Serval)</em></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <span class="li-label">Classified by Temperament &amp; Activity Level</span>
+                    <ul>
+                        <li><strong>High-energy / Playful</strong> — vocal and active; need stimulation <em>(e.g., Bengal, Abyssinian, Siamese)</em></li>
+                        <li><strong>Calm &amp; Lap cats</strong> — gentle and affectionate <em>(e.g., Ragdoll, Scottish Fold, Persian)</em></li>
+                        <li><strong>Independent &amp; Reserved</strong> — prefer their own space <em>(e.g., Russian Blue, Norwegian Forest Cat)</em></li>
+                        <li><strong>Dog-like / Social</strong> — follow owners, enjoy company <em>(e.g., Maine Coon, Birman, Tonkinese)</em></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <span class="li-label">Classified by Recognition Status</span>
+                    <ul>
+                        <li><strong>Fully recognized breeds</strong> — meet all standard requirements for showing</li>
+                        <li><strong>Provisional breeds</strong> — in the process of achieving championship status</li>
+                        <li><strong>Experimental breeds</strong> — newly developed; under evaluation</li>
+                        <li><strong>Domestic non-pedigree</strong> — mixed-breed or "moggy" cats (by far the most common)</li>
+                    </ul>
+                </li>
+
+            </ol>
+        </section>
+
+        <!-- ──────────────────────────────────────
+             SECTION 3: POPULAR BREEDS
+             On-page anchor target: #breeds
+             Breed card grid with external images
+        ────────────────────────────────────── -->
+        <section id="breeds">
+            <h2 class="section-heading">The World's Most Popular Breeds</h2>
+            <p>
+                While over 70 breeds are formally recognized, a handful dominate homes and registries
+                worldwide. Here are the most popular, with what makes each one distinctive.
+            </p>
+
+            <!-- BREED CARD GRID (div.breed-grid contains div.breed-card elements) -->
+            <div class="breed-grid">
+
+                <div class="breed-card">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cat_November_2010-1a.jpg/480px-Cat_November_2010-1a.jpg"
+                        alt="Domestic shorthair tabby cat"
+                    />
+                    <div class="card-body">
+                        <div class="card-title">Domestic Shorthair</div>
+                        <div class="card-origin">Mixed Breed · Worldwide</div>
+                        <p class="card-desc">
+                            The "mutt" of the cat world and by far the most common. Their genetic diversity
+                            makes them hardy, adaptable, and uniquely individual in personality.
+                        </p>
+                        <div class="card-tags">
+                            <span>Short-haired</span>
+                            <span>Adaptable</span>
+                            <span>Common</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="breed-card">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Siam_lilacpoint.jpg/480px-Siam_lilacpoint.jpg"
+                        alt="Siamese cat with blue eyes"
+                    />
+                    <div class="card-body">
+                        <div class="card-title">Siamese</div>
+                        <div class="card-origin">Natural Breed · Thailand</div>
+                        <p class="card-desc">
+                            One of the oldest and most recognizable breeds. Known for their striking
+                            blue eyes, pointed coloring, and notably vocal personality.
+                        </p>
+                        <div class="card-tags">
+                            <span>Short-haired</span>
+                            <span>Vocal</span>
+                            <span>Social</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="breed-card">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/White_Persian_Cat.jpg/480px-White_Persian_Cat.jpg"
+                        alt="White Persian cat"
+                    />
+                    <div class="card-body">
+                        <div class="card-title">Persian</div>
+                        <div class="card-origin">Developed Breed · Iran/UK</div>
+                        <p class="card-desc">
+                            Prized for their luxurious long coat and flat "pansy" face. Persians are
+                            calm, quiet, and prefer a serene indoor environment.
+                        </p>
+                        <div class="card-tags">
+                            <span>Long-haired</span>
+                            <span>Calm</span>
+                            <span>High grooming</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="breed-card">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Maine_Coon_cat_by_Tomitheos.JPG/480px-Maine_Coon_cat_by_Tomitheos.JPG"
+                        alt="Maine Coon large fluffy cat"
+                    />
+                    <div class="card-body">
+                        <div class="card-title">Maine Coon</div>
+                        <div class="card-origin">Natural Breed · USA</div>
+                        <p class="card-desc">
+                            The largest domestic cat breed. "Dog-like" in personality — playful,
+                            loyal, and sociable. Tufted ears and bushy tail are hallmarks.
+                        </p>
+                        <div class="card-tags">
+                            <span>Long-haired</span>
+                            <span>Large</span>
+                            <span>Friendly</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="breed-card">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Sphynx1_-_Casilda_Rocha.jpg/480px-Sphynx1_-_Casilda_Rocha.jpg"
+                        alt="Hairless Sphynx cat"
+                    />
+                    <div class="card-body">
+                        <div class="card-title">Sphynx</div>
+                        <div class="card-origin">Mutation Breed · Canada</div>
+                        <p class="card-desc">
+                            Hairless and wrinkled, the Sphynx is energetic, warm to the touch, and
+                            famously people-oriented. Despite appearances, they are not hypoallergenic.
+                        </p>
+                        <div class="card-tags">
+                            <span>Hairless</span>
+                            <span>Energetic</span>
+                            <span>Affectionate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="breed-card">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Paintedcats_Red_Star_standing_up.jpg/480px-Paintedcats_Red_Star_standing_up.jpg"
+                        alt="Bengal cat with spotted coat"
+                    />
+                    <div class="card-body">
+                        <div class="card-title">Bengal</div>
+                        <div class="card-origin">Hybrid Breed · USA</div>
+                        <p class="card-desc">
+                            Developed from crosses with the Asian Leopard Cat. Wild-looking spots
+                            and rosettes, high energy, and an athletic build. Not for first-time owners.
+                        </p>
+                        <div class="card-tags">
+                            <span>Short-haired</span>
+                            <span>Active</span>
+                            <span>Wild ancestry</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- /breed-grid -->
+        </section>
+
+        <!-- ──────────────────────────────────────
+             SECTION 4: WHAT DIFFERENTIATES CATS
+             On-page anchor target: #differences
+        ────────────────────────────────────── -->
+        <section id="differences">
+            <h2 class="section-heading">What Differentiates Cat Breeds</h2>
+
+            <p>
+                At first glance, cats might all seem similar — but the differences between breeds span
+                genetics, morphology, behavior, and health. Here are the primary axes of variation:
+            </p>
+
+            <table class="compare-table">
+                <thead>
+                    <tr>
+                        <th>Characteristic</th>
+                        <th>Range / Examples</th>
+                        <th>Why It Matters</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Size</strong></td>
+                        <td>5 lbs (Singapura) → 25+ lbs (Maine Coon)</td>
+                        <td>Affects space requirements, feeding, handling</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Coat length</strong></td>
+                        <td>Hairless (Sphynx) → extremely long (Persian)</td>
+                        <td>Determines grooming time and allergy sensitivity</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Activity level</strong></td>
+                        <td>Low (Ragdoll) → Very High (Bengal, Abyssinian)</td>
+                        <td>Determines enrichment and space needs</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Vocality</strong></td>
+                        <td>Silent (Russian Blue) → Very loud (Siamese)</td>
+                        <td>Important for apartment or shared-wall living</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Sociability</strong></td>
+                        <td>Independent (Norwegian FC) → Velcro (Burmese)</td>
+                        <td>Affects compatibility with children, other pets</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Lifespan</strong></td>
+                        <td>8–10 yrs (some exotics) → 15–20 yrs (Siamese)</td>
+                        <td>Long-term commitment planning</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Health predispositions</strong></td>
+                        <td>HCM (Maine Coon), PKD (Persian), flat-face breathing issues (Exotic)</td>
+                        <td>Influences veterinary costs and screening</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="info-box">
+                <h4>The "Mixed Breed" Advantage</h4>
+                <p>
+                    Domestic mixed-breed cats (often called "moggies") tend to exhibit
+                    <strong>hybrid vigor</strong> — greater genetic diversity typically correlates
+                    with fewer inherited conditions, longer lifespans, and more variable — yet
+                    often robust — temperaments. They make up ~90% of cats kept as pets globally.
+                </p>
+            </div>
+        </section>
+
+        <!-- ──────────────────────────────────────
+             SECTION 5: VIDEO
+             On-page anchor target: #video
+             Embedded YouTube video
+        ────────────────────────────────────── -->
+        <section id="video">
+            <h2 class="section-heading">Why Do Cats Act So Weird?</h2>
+            <p>
+                This TED-Ed animation by Tony Buffington explores the science behind some of
+                cats' most puzzling behaviors — from knocking things off tables to showing affection
+                on their own terms. A must-watch for any cat enthusiast.
+            </p>
+
+            <!-- EMBEDDED YOUTUBE VIDEO (responsive wrapper) -->
+            <div class="video-wrapper">
+                <iframe
+                    src="https://www.youtube.com/embed/sI8NsYIyQ2A"
+                    title="Why do cats act so weird? | TED-Ed"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <p class="image-caption">
+                "Why do cats act so weird?" — TED-Ed, Tony Buffington. Uploaded to YouTube; embedded here for educational purposes.
+            </p>
+        </section>
+
+        <!-- ──────────────────────────────────────
+             SECTION 6: TABLEAU DATA VIZ
+             On-page anchor target: #data
+             Live embedded Tableau Public graph
+        ────────────────────────────────────── -->
+        <section id="data">
+            <h2 class="section-heading">Cat Breed Popularity Data</h2>
+            <p>
+                The interactive Tableau visualization below explores global indicators and trends.
+                You can filter, hover over data points, and explore the underlying data directly
+                in the embedded view — no separate Tableau account needed.
+            </p>
+
+            <div id="tableau-section">
+                <h3>Interactive Data Dashboard</h3>
+                <p class="tableau-note">
+                    Powered by Tableau Public · Use the toolbar below the chart to zoom, filter, and download.
+                </p>
+
+                <!-- LIVE & INTERACTIVE TABLEAU EMBED -->
+                <div class='tableauPlaceholder' id='viz1685000000000' style='position: relative; width:100%;'>
+                    <noscript>
+                        <a href='https://public.tableau.com/views/WorldIndicators/GDPpercapita'>
+                            <img
+                                alt='GDP per capita'
+                                src='https://public.tableau.com/static/images/Wo/WorldIndicators/GDPpercapita/1_rss.png'
+                                style='border: none; max-width:100%;'
+                            />
+                        </a>
+                    </noscript>
+                    <object class='tableauViz' style='display:none;'>
+                        <param name='host_url'             value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                        <param name='embed_code_version'   value='3' />
+                        <param name='site_root'            value='' />
+                        <param name='name'                 value='WorldIndicators/GDPpercapita' />
+                        <param name='tabs'                 value='no' />
+                        <param name='toolbar'              value='yes' />
+                        <param name='animate_transition'   value='yes' />
+                        <param name='display_static_image' value='yes' />
+                        <param name='display_spinner'      value='yes' />
+                        <param name='display_overlay'      value='yes' />
+                        <param name='display_count'        value='yes' />
+                        <param name='language'             value='en-US' />
+                    </object>
+                </div>
+                <script type='text/javascript'>
+                    (function() {
+                        var divElement = document.getElementById('viz1685000000000');
+                        var vizElement  = divElement.getElementsByTagName('object')[0];
+                        if (divElement.offsetWidth > 800) {
+                            vizElement.style.width  = '100%';
+                            vizElement.style.height = (divElement.offsetWidth * 0.65) + 'px';
+                        } else if (divElement.offsetWidth > 500) {
+                            vizElement.style.width  = '100%';
+                            vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+                        } else {
+                            vizElement.style.width  = '100%';
+                            vizElement.style.height = '450px';
+                        }
+                        var scriptElement    = document.createElement('script');
+                        scriptElement.src    = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                    })();
+                </script>
+
+            </div><!-- /tableau-section -->
+        </section>
+
+        <!-- ──────────────────────────────────────
+             RÉSUMÉ SECTION (also appears here per
+             "résumé content can appear in both pages")
+        ────────────────────────────────────── -->
+        <section id="resume-section">
+            <h2 class="section-heading">About the Author</h2>
+            <p class="lead-text">
+                The following is an abbreviated résumé for the author of this site.
+                Full details are available on the <a href="index.html#resume">main blog page</a>.
+            </p>
+
+            <div class="info-box">
+                <h4>Current Role</h4>
+                <p>
+                    <strong>Senior Software Engineer</strong> at Meridian Analytics — full-stack development,
+                    data pipeline architecture, and data visualization with 8+ years of experience.
+                </p>
+            </div>
+
+            <table class="compare-table">
+                <thead>
+                    <tr>
+                        <th>Skill Area</th>
+                        <th>Technologies</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Frontend</strong></td>
+                        <td>React, Next.js, TypeScript, D3.js, CSS3, HTML5</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Backend</strong></td>
+                        <td>Node.js, Python, FastAPI, PostgreSQL, Redis</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Data &amp; DevOps</strong></td>
+                        <td>Tableau, Pandas, Docker, AWS, CI/CD, Kafka</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Education</strong></td>
+                        <td>B.S. Computer Science, Minor in Statistics</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p style="text-align:center; margin-top:1.5rem;">
+                <a href="index.html#resume" style="
+                    display:inline-block;
+                    background: #b5451b;
+                    color:#fff;
+                    padding: 10px 28px;
+                    border-radius: 4px;
+                    text-decoration: none;
+                    font-family: var(--font-body);
+                    font-weight: 700;
+                    font-size: 0.9rem;
+                    letter-spacing: 0.5px;
+                    transition: background 0.2s;
+                ">
+                    View Full Résumé →
+                </a>
+            </p>
+        </section>
+
+    </div><!-- /main-content -->
+
+    <!-- FOOTER DIV -->
+    <div id="footer-section">
+        <p>
+            🐱 <strong>The Cat Encyclopedia</strong> &nbsp;·&nbsp;
+            Part of <a href="index.html">Digital Frontiers</a> &nbsp;·&nbsp;
+            Images via <a href="https://commons.wikimedia.org" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>
+            (CC licenses) &nbsp;·&nbsp;
+            Video via <a href="https://www.youtube.com/watch?v=sI8NsYIyQ2A" target="_blank" rel="noopener noreferrer">TED-Ed on YouTube</a>
+        </p>
+        <p style="margin-top:0.5rem; font-size:0.78rem; opacity:0.7;">
+            <a href="#top">↑ Back to top</a> &nbsp;·&nbsp;
+            Built from scratch — no frameworks used on this page.
+        </p>
+    </div>
+
+</div><!-- /page-wrapper -->
+
+</body>
+</html>
